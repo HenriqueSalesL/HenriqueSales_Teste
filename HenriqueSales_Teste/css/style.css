@@ -1,0 +1,128 @@
+body {
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+li {
+	padding-left: 45px;;
+	
+}
+.rodape{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:60px;   
+	background:#6cf;
+}
+
+/*.Home {
+
+	opacity: 0.3;
+	width: 970px;
+    min-height: 561px;
+    float: center;
+    padding: 5px;
+	
+	
+	
+*/
+.text-block {
+
+    background-color: black;
+    color: white;
+}
+h1 {
+	background-color: #4169E1;
+    color: white;
+    padding: 16px;
+	font-size: 16px;
+    border: none;
+	position: relative;
+}
+.dropbtn {
+    background-color: #4169E1;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+	padding-left: 70px;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #18399a;}
+
+.leftbar{
+    width: 380px;
+    min-height: 280px;
+    float: left;
+	padding: 5px;
+}
+
+.rightbar{
+    width: 580px;
+    min-height: 680px;
+    float: right;
+    padding: 5px;
+}
+	
+	
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+button.btn-lg {
+	width: 120px;
+	height: 50px;
+	text-align: center;
+	
+}
+button.danger {
+	width: 70px;
+	height: 40px;
+	margin-top: -10px;
+	background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+}
+
+
+button.danger:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+select {
+	padding: 5px;
+	margin-bottom: 20px;
+}
